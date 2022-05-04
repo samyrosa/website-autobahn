@@ -5,3 +5,29 @@ body {
     margin: 0;
     width: 100%;
 }
+
+/* Cabeçalho */
+header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.left-container {
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    padding-left: 0px;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+li {
+    padding-left: 15px;
+}
