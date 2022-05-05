@@ -31,3 +31,19 @@ ul{
 li {
     padding-left: 15px;
 }
+
+/* banner da pagina */
+.banner{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+}
+
+.bannerIndex{
+    background-color: #3C3B3D;
+}
+
+.bannerText{
+    margin: 0;
+    color: white;
+}
