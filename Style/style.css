@@ -138,8 +138,22 @@ h2 {
     transition: 0.7s;
     height: 290px;
     width: 230px;
-    font-size: 27px;
+    font-size: 25px;
     padding-left: 15px;
     /* justify-content: center;
     align-items: center; */
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3C3B3D;
+    margin-top: 50px;
+    height: 100px;
+}
+
+.footerText {
+    font-weight: 300;
+    color: white;
 }
