@@ -53,6 +53,7 @@ a {
 
 
 .bannerText {
+    text-transform: uppercase;
     margin: 0;
     color: white;
 }
@@ -168,7 +169,10 @@ footer {
 }
 
 .bannerSobre{
-    
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    background-image: url(image/bannerSobre.png);
 }
 
 .suvImg {
@@ -225,4 +229,14 @@ footer {
     background-position: center top;
     background-size: 100% auto;
     background-image: url(image/station.png);
+}
+
+/* Pagina Sobre */
+.blocoSobre{
+    display: flex;
+    margin-bottom: 60px;
+}
+.blocoItemSobre{
+    margin: 0 8px;
+    width: 470px;
 }
