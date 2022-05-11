@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+:root{
+    --color1: #2155CD;
+    --color2: #E9E9E9;
+    --color3: #68686B;
+    --color4: #3C3B3D;
+}
 
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #f3f3f3;
+    background-color: var(--color2);
     margin: 0;
     width: 100%;
 }
@@ -32,6 +38,11 @@ ul {
 
 li {
     padding-left: 15px;
+}
+
+.navHover:hover{
+    color: var(--color1);
+    border-bottom: 2px solid var(--color1);
 }
 
 a {
@@ -75,7 +86,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(100, 100, 110);
+    background-color: var(--color3);
     border-radius: 10px;
     height: 110px;
     width: 926px;
@@ -149,7 +160,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #3C3B3D;
+    background-color: var(--color4);
     margin-top: 50px;
     height: 100px;
 }
@@ -243,19 +254,28 @@ footer {
 }
 
 /* Migalha */
+.migalhaBox {
+    color: var(--color1);
+    display: flex;
+    justify-content: center;
+}
+
 .migalha {
     display: inline-flex;
-    font-size: 15px;
-    margin-top: 20px;
-    margin-left: 200px;
+    font-size: 12px;
+    width: 965px;
+    /* margin-top: 20px;
+    margin-left: 200px; */
 }
 
 .migalhalink {
     text-decoration: underline;
 }
-.migalhaText{
+
+.migalhaText {
     margin-left: 5px;
 }
+
 .migalhaText::after {
     content: " > ";
 }
