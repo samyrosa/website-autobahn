@@ -30,14 +30,14 @@ header {
     align-items: center;
 }
 
-ul {
+ul.listaNav {
     padding-left: 0px;
     list-style: none;
     display: inline-flex;
     align-items: center;
 }
 
-li {
+li.listaNav {
     padding-left: 15px;
 }
 
