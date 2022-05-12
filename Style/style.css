@@ -283,3 +283,22 @@ footer {
 .migalhaText:last-child:after {
     content: "";
 }
+
+.caixaContato{
+    display: flex;
+}
+.formularioContato{
+    display: flex;
+    flex-direction: column;
+}
+
+.ItemContato01{
+    width: 320px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.ItemContato02{
+width: 630px;
+}
