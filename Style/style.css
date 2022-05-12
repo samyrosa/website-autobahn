@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-:root{
-    --color1: #2155CD;
+
+:root {
+    --color1: #777;
     --color2: #E9E9E9;
     --color3: #68686B;
     --color4: #3C3B3D;
@@ -40,7 +41,7 @@ li {
     padding-left: 15px;
 }
 
-.navHover:hover{
+.navHover:hover {
     color: var(--color1);
     border-bottom: 2px solid var(--color1);
 }
@@ -284,21 +285,62 @@ footer {
     content: "";
 }
 
-.caixaContato{
+/* Pagina de contato */
+.caixaContato {
     display: flex;
-}
-.formularioContato{
-    display: flex;
-    flex-direction: column;
+    border-radius: 10px;
+    background-color: var(--color5);
 }
 
-.ItemContato01{
+.formularioContato {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ItemContato01 {
     width: 320px;
     height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    background-color: aquamarine;
+
 }
-.ItemContato02{
-width: 630px;
+
+.ItemContato02 {
+    width: 630px;
+    height: 500px;
+    padding: 20px;
+}
+
+.caixaContatoText {
+    margin-bottom: 40px;
+}
+
+.inputContato {
+    margin-bottom: 20px;
+    height: 35px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.botaoContato {
+    height: 35px;
+    width: 140px;
+}
+
+.btoContato {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#msg {
+    height: 150px;
+}
+
+.textContato {
+    margin: 5px 0;
 }

@@ -40,20 +40,23 @@
     <main>
         <div class="caixaContato">
             <div class="caixaItemContato ItemContato01">
-                <h3>(xx)xxxx-xxxx</h3>
-                <h3>loremipsum@lorem.com</h3>
-                <h3>00, xxxxxxxxxxx xxxxxx 0000000-000</h3>
+                <h3 class="textContato">(xx)xxxx-xxxx</h3>
+                <h3 class="textContato">loremipsum@lorem.com</h3>
+                <h3 class="textContato">00, xxxxxxxxxxx xxxxxx <br> 0000000-000</h3>
             </div>
             <div class="caixaItemContato ItemContato02">
-                <h2>Formulario de Contato</h2>
+                <h2 class="caixaContatoText">Formulario de Contato</h2>
                 <form class="formularioContato">
-                    <label for="nomeCompleto">Nome completo</label>
-                    <input type="text" id="nomeCompleto" name="nomeCompleto" placeholder="Seu nome..">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
-                    <label for="msg">Mensagem:</label>
-                    <textarea id="msg"></textarea>
-                    <input type="submit">
+                    <label class="labelContato" for="nomeCompleto">Nome completo</label>
+                    <input type="text" class="inputContato" id="nomeCompleto" name="nomeCompleto"
+                        placeholder="Seu nome..">
+                    <label class="labelContato" for="email">Email:</label>
+                    <input type="email" class="inputContato" id="email" name="email">
+                    <label class="labelContato" for="msg">Mensagem:</label>
+                    <textarea id="msg" class="inputContato"></textarea>
+                    <div class="btoContato">
+                        <input class="botaoContato" type="submit">
+                    </div>
                 </form>
             </div>
         </div>
