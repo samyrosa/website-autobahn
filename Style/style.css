@@ -5,6 +5,7 @@
     --color2: #E9E9E9;
     --color3: #68686B;
     --color4: #3C3B3D;
+    --color5: #d2d2d2;
 }
 
 body {
@@ -264,7 +265,7 @@ footer {
 .migalha {
     display: inline-flex;
     font-size: 12px;
-    width: 965px;
+    /* width: 965px; */
     /* margin-top: 20px;
     margin-left: 200px; */
 }
@@ -289,6 +290,7 @@ footer {
 .caixaContato {
     display: flex;
     border-radius: 10px;
+    margin-bottom: 40px;
     background-color: var(--color5);
 }
 
@@ -325,11 +327,20 @@ footer {
     height: 35px;
     border-radius: 10px;
     border: 0;
+    padding-left: 10px;
+}
+
+.labelContato{
+    padding-left: 10px;
+    margin-bottom: 5px;
 }
 
 .botaoContato {
-    height: 35px;
-    width: 140px;
+    border: 0px;
+    padding: 0px;
+    width: 165px;
+    height: 40px;
+    border-radius: 5px;
 }
 
 .btoContato {
@@ -339,6 +350,7 @@ footer {
 
 #msg {
     height: 150px;
+    padding: 10px;
 }
 
 .textContato {
