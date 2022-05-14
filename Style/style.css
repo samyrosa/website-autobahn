@@ -330,7 +330,7 @@ footer {
     padding-left: 10px;
 }
 
-.labelContato{
+.labelContato {
     padding-left: 10px;
     margin-bottom: 5px;
 }
@@ -355,4 +355,50 @@ footer {
 
 .textContato {
     margin: 5px 0;
+}
+
+/* Pagina de detalhe */
+
+.boxDetalhe01 {
+    display: flex;
+}
+
+.boxDetalhe01Img {
+    margin-right: 40px;
+    display: flex;
+    background-color: brown;
+}
+
+.detalheMarca {
+    margin: 0;
+}
+
+.detalheTitulo {
+    margin-bottom: 0;
+}
+
+.detalheTituloTabela {
+    font-weight: bold;
+    width: 130px;
+    padding-left: 10px;
+}
+
+.detalheTextTabela {
+    margin-left: 10px;
+    width: 260px;
+    text-align: center;
+}
+
+table,
+td,
+th {
+    border-bottom: 1px solid #68686ba8;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td {
+    height: 35px;
 }
