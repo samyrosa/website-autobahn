@@ -244,6 +244,13 @@ footer {
     background-image: url(image/station.png);
 }
 
+.ContatoImg {
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    background-image: url(image/contatoImg.png);
+}
+
 /* Pagina Sobre */
 .blocoSobre {
     display: flex;
@@ -301,6 +308,7 @@ footer {
 }
 
 .ItemContato01 {
+    color: white;
     width: 320px;
     height: 500px;
     display: flex;
@@ -308,7 +316,6 @@ footer {
     justify-content: flex-end;
     padding: 20px;
     border-radius: 10px 0 0 10px;
-    background-color: aquamarine;
 
 }
 
@@ -354,7 +361,11 @@ footer {
 }
 
 .textContato {
-    margin: 5px 0;
+    margin: 8px 0;
+}
+
+.iconContato{
+    margin-right: 5px;
 }
 
 /* Pagina de detalhe */
@@ -395,7 +406,7 @@ th {
     border-bottom: 1px solid #68686ba8;
 }
 
-table{
+table {
     border-collapse: collapse;
 }
 
