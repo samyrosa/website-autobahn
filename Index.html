@@ -7,14 +7,50 @@
     <link rel="stylesheet" href="Style/style.css">
     <link rel="shortcut icon" href="Style/Image/logoAutobahnMinimo.svg" type="image/x-icon">
     <title>Autobahn - Inicio</title>
+    <style>
+    </style>
 </head>
 
 <body>
     <header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul class="lista">
+                <li class="tituloLista"> NOVOS</li>
+            </ul>
+            <ul class="lista">
+                <li class="tituloLista"> USADOS</li>
+                <li><a>SEMINOVOS</a></li>
+                <li><a>ANTIGOS</a></li>
+            </ul>
+            <ul class="lista">
+                <li class="tituloLista"> CARROÇARIA</li>
+                <li><a>SUV</a></li>
+                <li><a>PICAPE</a></li>
+                <li><a>SEDÃ</a></li>
+                <li><a>CUPÊ</a></li>
+                <li><a>MINIVAN</a></li>
+                <li><a>HATCH</a></li>
+                <li><a>CONVERSIVEL</a></li>
+                <li><a>STATION</a></li>
+            </ul>
+            <ul class="lista">
+                <li class="tituloLista">MARCA</li>
+                <li><a>TOYOTA</a></li>
+                <li><a>HONDA</a></li>
+                <li><a>BMW</a></li>
+                <li><a>JEEP</a></li>
+                <li><a>RENAULT</a></li>
+                <li><a>FIAT</a></li>
+                <li><a>AUDI</a></li>
+                <li><a>CITROEN</a></li>
+            </ul>
+        </div>
         <div class="left-container">
             <a href="Index.html"> <img width="200px" src="Style/Image/logoAutobahnMaximo.svg"></a>
             <ul class="listaNav">
-                <li class="listaNav"><a class="navHover" href="DetalheCarro.html">Catalogo</a></li>
+                <li class="listaNav"><a class="navHover" onclick="openNav()">Catalogo</a>
+                </li>
                 <li class="listaNav"><a class="navHover" href="Sobre.html">Sobre</a></li>
                 <li class="listaNav"><a class="navHover" href="Contato.html">Contato</a> </li>
             </ul>
@@ -73,6 +109,15 @@
     <footer>
         <h4 class="footerText">Autobahn&#174; - Revolucionando o mercado de automóveis</h4>
     </footer>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
 </body>
 
 </html>
