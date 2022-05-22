@@ -365,7 +365,7 @@ footer {
     margin: 8px 0;
 }
 
-.iconContato{
+.iconContato {
     margin-right: 5px;
 }
 
@@ -376,9 +376,11 @@ footer {
 }
 
 .boxDetalhe01Img {
+    width: 450px;
+    height: 400px;
     margin-right: 40px;
     display: flex;
-    background-color: brown;
+    justify-content: center;
 }
 
 .detalheMarca {
