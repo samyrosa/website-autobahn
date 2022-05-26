@@ -25,9 +25,9 @@
                 <li class="listaNav">|</li>
                 <li class="listaNav">Cadastro</li>
                 <li class="listaNav">
-                    <select name="select" onchange="location = this.value;">
-                        <option value="Sobre.html" selected> PT</option>
-                        <option value="About.html">EN</option>
+                    <select name="select">
+                        <option value="" selected> PT</option>
+                        <option value="">EN</option>
                     </select></li>
             </ul>
         </div>
@@ -54,11 +54,11 @@
                 <form class="formularioContato">
                     <label class="labelContato" for="nomeCompleto">Nome completo:</label>
                     <input type="text" class="inputContato" id="nomeCompleto" name="nomeCompleto"
-                        placeholder="Seu nome..">
+                        placeholder="Seu nome.." required>
                     <label class="labelContato" for="email">Email:</label>
-                    <input type="email" class="inputContato" id="email" name="email">
+                    <input type="email" class="inputContato" id="email" name="email" placeholder="seuemail@autobahn.com"required>
                     <label class="labelContato" for="msg">Mensagem:</label>
-                    <textarea id="msg" class="inputContato"></textarea>
+                    <textarea id="msg" class="inputContato" required></textarea>
                     <div class="btoContato">
                         <input class="botaoContato" type="submit">
                     </div>
