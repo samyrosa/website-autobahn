@@ -163,14 +163,34 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color4);
+    background-color: var(--color5);
     margin-top: 50px;
-    height: 100px;
-}
+    padding: 20px;
+    height: auto;
+    align-items: flex-start;
 
+}
+.F2{
+    display: flex;
+}
+.F1{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    height: 250px;
+}
 .footerText {
     font-weight: 300;
     color: white;
+}
+
+.footerlista{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.titulofooterlista{
+    font-weight:bold ;
 }
 
 /* Imagem background */
